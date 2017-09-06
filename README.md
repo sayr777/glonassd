@@ -60,6 +60,8 @@ Edit **DAEMON** variable in **glonassd.sh** file for correct path to daemon fold
 Copy **glonassd.sh** file in **/etc/init.d** folder.<br>
 Use **chmod 0755 /etc/init.d/glonassd.sh** for make it executable.<br>
 Use **systemctl daemon-reload** and **update-rc.d glonassd.sh defaults** for enable autostart daemon.<br>
+
+### Autostart disable
 Use **update-rc.d -f glonassd.sh remove** for diasble autostart without delete glonassd.sh file.<br>
 Delete /etc/init.d/glonassd.sh file and use **systemctl daemon-reload** for fully cleanup daemon info.
 
