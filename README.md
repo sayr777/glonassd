@@ -31,7 +31,7 @@ Databases can be added using plug libraries.
 **make pg** for compile database (PostgreSQL) library<br>
 **make name** for compile terminal **name** library
 
-**Note:** if error "/usr/bin/ld: cannot find -lpq" occure, run **apt-get install libpq-dev**
+**Note:** if error "/usr/bin/ld: cannot find -lpq" occured, run **apt-get install libpq-dev**
 
 ### Installation
 Create folder for daemon an copy in it files **glonassd, \*.so, \*.sql**, or use folder where project compiled.<br>
