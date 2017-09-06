@@ -35,6 +35,7 @@ Databases can be added using plug libraries.
 
 ### Installation
 Create folder for daemon an copy in it files **glonassd, \*.so, \*.sql**, or use folder where project compiled.<br>
+Create folders **forward** and **logs** into daemon folder.<br>
 In you PostgreSQL database create table "tgpsdata" (see script tgpsdata.sql).<br>
 If you use firewall, enable ports for incoming terminal connections.
 
